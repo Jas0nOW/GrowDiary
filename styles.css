@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.app-container {
+  display: grid;
+  grid-template-rows: 60px 1fr 40px;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  height: 100%;
+}
+
+.app-header {
+  grid-area: header;
+  background: #2e7d32;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: #f1f8e9;
+  padding: 1rem;
+}
+
+.main-content {
+  grid-area: main;
+  padding: 1rem;
+  background: #fff;
+  overflow-y: auto;
+}
+
+.app-footer {
+  grid-area: footer;
+  background: #e0e0e0;
+  text-align: center;
+  padding: 0.5rem;
+}
