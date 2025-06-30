@@ -1,0 +1,21 @@
+
+1.	Features sammeln
+•	Layout & Usability: inspiriert von Grow with Jane
+•	Tracking und hinzufügen von Setups (Zelt), Wachstums-Phasen, Fotos, Notizen, Dünger etc.
+•	Samen-Datenbank mit Metadata (Keimzeit, Keimtemperatur, Herkunft…)
+•	Individuelle Anordnung & Editierbarkeit: wie in Bloom Bro
+•	Strom-/Wasser-/Dünger-Verbrauch: wie in EasyGrowing
+
+2.	Priorisieren
+•	Layout & Usability: inspiriert von Grow with Jane
+•	Tracking und hinzufügen von Setups (Zelt), Wachstums-Phasen, Fotos, Notizen, Dünger etc.
+
+3. Technologie-Stack (angepasst)
+•	Frontend: React Native mit Expo
+•	Sprache: TypeScript
+•	State-Management: Context API oder leichtgewichtig Redux Toolkit (Und lernen was ist das überhaupt)
+•	Lokale Datenbank: Expo SQLite (für Offline-Storage)
+•	Cloud-Backend (optional, später): Firebase Auth + Firestore
+•	Versionskontrolle: Git + GitHub
+•	Design-Prototyping: Figma (Und lernen was ist das überhaupt)
+•	Entwicklungsumgebung: Visual Studio Code
